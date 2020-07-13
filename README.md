@@ -1,4 +1,4 @@
-#Tiendita
+# Tiendita
 
 Tiendita fast e-commerce made with Spree gem in Rails 6, and i18n internalization.
 
