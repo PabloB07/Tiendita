@@ -27,7 +27,7 @@ class RemoveTranslationsFromSpreeTables < SpreeExtension::Migration[4.2]
   private
 
   def current_locale
-    I18n.default_locale || 'en'
+    I18n.default_locale || 'englobalize'
   end
 
   def migrate_translation_data!(class_name)
