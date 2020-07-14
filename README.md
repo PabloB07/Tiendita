@@ -1,6 +1,6 @@
 # Tiendita
 
-Tiendita fast e-commerce made with Spree gem in Rails 6, and i18n internalization.
+Tiendita is a fast base for e-commerce made with Spree gem in Rails 6, and i18n internalization.
 
 ## Installation
 
@@ -10,6 +10,12 @@ If you're starting a new application from scrach run (for example):
 
 ```bash
 rails new store
+cd store
+```
+Is better for you create a new Rails app with Database, like MySQL / MariaDB or other NoSQL like MongoDB, with this parameters:
+***Ensure to put yor gem of NoSQL like MongoDB or MySQL / MariaDB databases in your Gemfile*** 
+```bash
+rails new store -d mysql
 cd store
 ```
 
