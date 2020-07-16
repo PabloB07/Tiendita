@@ -117,8 +117,8 @@ gem 'spree_globalize', github: 'spree-contrib/spree_globalize', branch: 'master'
 
 ### 1. Migrate your database
 
-    bin/rake spree_i18n:upgrade
-    bin/rake db:migrate
+    rails spree_i18n:upgrade
+    rails db:migrate
 
 *Note:* The migration automatically skips the removal of the translations tables. So it's safe to run the migration without data loss. But be sure to have the `spree_globalize` gem in your `Gemfile`, if you want to keep them.
 
