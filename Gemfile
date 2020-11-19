@@ -23,7 +23,7 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 # Spree gem for Tiendita
 gem "actionview", ">= 6.0.3.3"
-gem 'spree', '~> 4.1'
+gem "spree_api", ">= 4.1.12"
 gem 'spree_auth_devise', '~> 4.1'
 gem 'spree_gateway', '~> 3.7'
 # Spree i18n gem for Tiendita internalization
